@@ -58,12 +58,6 @@ LIBHDR = $(LIBMAIN:=.h) libsrc/Constant.h \
  libsrc/MathConstant.h libsrc/PedigreeAlleles.h libsrc/LongInt.h
 LIBOBJ = $(LIBSRC:.cpp=.o)
  
-# PDF Library File Sets
-PDFLIB = pdf/libpdf.a
-PDFFILES = pdf/PDF pdf/PDFfont pdf/PDFinfo pdf/PDFpage
-PDFSRC = $(PDFFILES:=.cpp)
-PDFHDR = $(PDFFILES:=.h)
-PDFOBJ = $(PDFFILES:=.o)
 
 # private parameters
 FETCHDIR=$(HOME)/code
